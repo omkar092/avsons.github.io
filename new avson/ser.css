@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+.services{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 18px;
+
+   
+    
+
+
+}
+body{
+    
+    background-color: #74EBD5;
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+    
+    
+
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.service-col{
+    flex-basis: 50%;
+    background:  rgba(255, 255, 255, 0.308);  
+    backdrop-filter: blur(5px);
+    
+    
+    border-radius: 8px;
+    margin-bottom: 5%;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    margin: 1%;
+    margin-left: 2px;
+    transition: 0.3s;
+    
+    
+}
+.service-col:hover{
+    box-shadow: 0 0 16px 0 black;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 8px 75px;
+
+}
+
+
+
+.servicebox{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+
+
+}
+.singelser{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20xp;
+    color: #fff;
+    position: relative;
+
+}
+.singelser img{
+    width: 90vh;
+    height: 90%;
+    
+    margin: 10px;
+    border-radius: 7px;
+
+
+}
+
+
+.singelser:hover .overlay{
+    opacity: 1;
+
+
+}
+.service-des{
+    width: 80%;
+    position: absolute;
+    bottom: 0%;
+    opacity: 0;
+    left:50%;
+    transform: translateX(-50%);
+    transition: 1s;
+
+}
+hr{
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 5px auto;
+    width: 40%;
+}
+.singelser:hover .service-des{
+    opacity: 1;
+    bottom: 40%;
+
+}
+.head{
+    font-size: 40px;
+    color: black;
+    letter-spacing: 4px;
+    font-weight: 900;
+    transition: 1s ease;
+    
+     
+   
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    } 
+.head:hover{
+    letter-spacing: 7;
+    
+
+}
+.img1{
+    margin-top: 18px;
+    transition: 1.5s ease;
+   
+}
+.img1:hover{
+    margin-top: 2px;
+}
